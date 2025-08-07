@@ -39,6 +39,7 @@ const agregarAmigo = () => {
 
 const sortearAmigo = () => {
   if (amigos.length > 1) {
+    console.log(amigos);
     amigoSorteado.innerHTML = "";
 
     const num = Math.floor(Math.random() * amigos.length);
